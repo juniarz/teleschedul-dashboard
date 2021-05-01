@@ -10,6 +10,7 @@ var dashboard = new ParseDashboard({
             masterKey: process.env.MASTER_KEY || 'myMasterKey',
             serverURL: process.env.SERVER_URL || localParseServer,
             appName: process.env.APP_NAME || 'MyApp',
+            graphQLServerURL: process.env.GRAPHQL_URL
         },
     ],
     users: [
